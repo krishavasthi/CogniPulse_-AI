@@ -11,6 +11,10 @@ An AI-powered study companion designed to accelerate learning through instant no
 - **AI Model:** Google Gemini 3.5 Flash-Lite
 - **SDK:** Google GenAI SDK (`google-genai`)
 - **Language:** Python
+- **Deploy** Streamlit
+- 
+**Here link for deployed site:
+  https://study-ai-bros.streamlit.app/
 
 **  Quick Start
 ```bash
