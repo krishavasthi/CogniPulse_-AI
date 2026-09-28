@@ -1,7 +1,9 @@
 import streamlit as st
 
 
-st.markdown("<h1 style = 'text-align: center'>🤖 HOME 🤖</h1>",unsafe_allow_html=True)
+
+
+st.markdown("""<h1 style = "text-align: center ;">CogniPulse AI</h1>""",unsafe_allow_html=True)
 
 st.space()
 
@@ -9,35 +11,31 @@ st.markdown("<h2 style = 'text-align: center'>Hey 👋,  Welcome!!!</h2>",unsafe
 
 st.space()
 
-st.markdown("<h3 style = 'text-align: center'>Our software consists of two Ai Brothers :-</h3>",unsafe_allow_html=True)
+st.markdown("<h3 style = 'text-align: center'>CogniPulse AI operates on Two Core Engines :-</h3>",unsafe_allow_html=True)
 
 col1,col2 = st.columns(2)
 
 with col1:
-    if st.button("**Bulleto Ai📝**",use_container_width=True):
-        st.switch_page("pages/Bulleto.py")
+    if st.button("**NotePulse📝**",use_container_width=True):
+        st.switch_page("pages/NotePulse.py")
 
 with col2:
-    if st.button("**Quizo Ai🧠**", use_container_width=True):
-        st.switch_page("pages/Quizo.py")
+    if st.button("**CogniQuiz🧠**", use_container_width=True):
+        st.switch_page("pages/CogniQuiz.py")
 
 st.space()
 
-st.subheader("**Bulleto Ai :**")
-st.write("Bulleto is a smart tool that instantly generates short notes from your topic or chunki notes," \
-" flashcards, and revision formulas.As every student knows, dealing with massive chunks of unstructured study material can be overwhelming." \
-" To save you valuable time, we created Bulleto. " \
-"Powered by the latest **Gemini 3.5 Flash-Lite model**, " \
-"Bulleto delivers high-precision study aids with lightning-fast execution.")
+st.subheader("**NotePulse :**")
+st.write("NotePulse is a smart synthesis engine that instantly generates short notes," \
+" flashcards, and revision formulas from your topics or course material. " \
+"To save you valuable study time, NotePulse converts unstructured text into concise revision aids." \
+" Powered by the latest **Gemini 3.5 Flash-Lite model**, it delivers high-precision outputs with lightning-fast execution.")
 
 st.space()
-st.subheader("**Quizo Ai :**")
+st.subheader("**CogniQuiz :**")
 
-st.write( "As name suggests," \
-" Quizo is a question-generating nerd—and Bulleto’s little brother!." \
-"He is your ultimate study companion for active recall and revision," \
-" creating custom questions directly from your topics and notes. " \
-"Don't let the nerd title fool you;"\
-"Quizo is incredibly efficient."\
-"Powered by the same **Gemini 3.5 Flash-Lite model**, he delivers lightning-fast performance so you never have to worry about speed.")
+st.write( "CogniQuiz is an automated creative question generator designed for active recall and self-assessment." \
+" It creates custom quizzes directly from your notes to test your understanding before exams. " \
+"Powered by the same **Gemini 3.5 Flash-Lite model**, " \
+"CogniQuiz delivers structured assessments instantly.")
 
