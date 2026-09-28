@@ -1,10 +1,11 @@
-* AI Study Brothers: Bulleto & Quizo 🚀🧠
+* CogniPulse AI🚀🧠
 
-An AI-powered study companion designed to accelerate learning through instant note generation, flashcards, and interactive customized quizzes using Google Gemini 3.5 Flash-Lite.
+An AI-powered study notes and quiz generating engine designed to accelerate learning through instant note generation, flashcards, and interactive customized quizzes using Google Gemini 3.5 Flash-Lite.
 
 **  Features
-- **Bulleto AI:** Converts dense study material and topics into structured bullet points, short revision notes, and flashcards.
-- **Quizo AI:** Generates custom multiple-choice quizzes with explanations for active recall practice.
+- **NotePulse:** Converts dense study material and topics into structured bullet points, short revision notes, and flashcards.
+  
+- **CogniQuiz:** Generates custom multiple-choice quizzes with explanations for active recall practice.
 
 ** Built With
 - **Frontend/UI:** Streamlit
@@ -14,7 +15,7 @@ An AI-powered study companion designed to accelerate learning through instant no
 - **Deploy** Streamlit
 - 
 **Here link for deployed site:
-  https://study-ai-bros.streamlit.app/
+  https://cognipulse.streamlit.app/
 
 **  Quick Start
 ```bash
