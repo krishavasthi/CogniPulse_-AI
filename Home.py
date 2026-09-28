@@ -17,7 +17,7 @@ col1,col2 = st.columns(2)
 
 with col1:
     if st.button("**NotePulse📝**",use_container_width=True):
-        st.switch_page("pages/NotePulse.py")
+        st.switch_page("pages/1_NotePulse.py")
 
 with col2:
     if st.button("**CogniQuiz🧠**", use_container_width=True):
